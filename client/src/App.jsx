@@ -9,10 +9,16 @@ function App() {
   return(
   <>
   <Header />
-  <Sample />
+  <main>
+    <Sample />
+    <Sample />
+    <Sample />
+    <Sample />
+    <Sample />
+    <Sample />
+  </main>
   <Footer />
   
   </>);
 }
-
 export default App

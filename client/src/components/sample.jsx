@@ -1,20 +1,13 @@
 import React from "react";
 
-const sample = () =>{
-    return(<>
-    <div className="container">
-        
-        <div className="row">
-        <div className="item">SampleComponent</div>
-        <div className="item">SampleComponent</div>
-        <div className="item">SampleComponent</div>
+
+
+const sample = () => {
+    return (
+        <div className='item'>
+            <h2>SampleComponent</h2>
         </div>
-        <div className="row">
-        <div className="item">SampleComponent</div>
-        <div className="item">SampleComponent</div>
-        <div className="item">SampleComponent</div>
-        </div>
-    </div>
-    </>)
-}
+    );
+};
+
 export default sample;
